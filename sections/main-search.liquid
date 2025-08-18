@@ -73,7 +73,8 @@
       {%- if search.results_count == 0 and active_filters_count == 0 -%}
         <div class="empty-state">
           <p class="empty-state__heading heading h1">{{ 'search.general.title' | t }}</p>
-          <p class="empty-state__description">{{ 'search.general.no_results_with_terms' | t: terms: filtered_terms }}</p>
+
+         <p class="empty-state__description search_text_background"><strong>{{ 'search.general.no_results_with_terms' | t: terms: filtered_terms }}</strong><br/><br/><strong>Suggestions</strong><br/>* Check for misspellings.<br/>* Remove possible redundant keywords (ie. "products").<br/>* Use other words to describe what you are searching for.<br/><br/>Still can't find what you're looking for? <a class="empty-state__link link link--accented" href="/pages/contact-us">Contact us.</a><br/>Call Us: ( Our phone number ) : <a class="empty-state__link link link--accented" href="tel:888-798-8822">888-798-8822</a><br/>Email us : <a href="mailto:Info@factorydirectsupplyonline.com" class="empty-state__link link link--accented">Info@factorydirectsupplyonline.com</p>
 
           <form class="empty-state__quick-form" action="{{ routes.search_url }}" method="get">
             <input type="hidden" name="type" value="product">
@@ -868,13 +869,6 @@
       "info": "This menu has limited support for dropdown items."
     },
     {
-      "type": "checkbox",
-      "id": "quick_links_show_products_count",
-      "label": "Show products count",
-      "info": "Only for collection links and filters",
-      "default": true
-    },
-    {
       "type": "header",
       "content": "Filtering"
     },
@@ -889,8 +883,7 @@
       "id": "show_filter_color_swatch",
       "label": "Show filter color swatch",
       "info": "Requires a filter named \"Color\".",
-      "default": true,
-      "visible_if": "{{ section.settings.show_filters }}"
+      "default": true
     },
     {
       "type": "select",
@@ -910,8 +903,7 @@
           "label": "First open"
         }
       ],
-      "default": "all_closed",
-      "visible_if": "{{ section.settings.show_filters }}"
+      "default": "all_closed"
     }
   ]
 }
