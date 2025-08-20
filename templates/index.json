@@ -9,588 +9,311 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "hero_home_Naf8CG": {
+      "type": "hero-home",
+      "settings": {
+        "hero_background_image": "shopify://shop_images/hero-home-bk.jpg",
+        "hero_subtitle": "YOUR ONE-STOP SHOP FOR",
+        "hero_title": "CONSTRUCTION SUPPLIES",
+        "badge_1_image": "shopify://shop_images/shopper-approved.png",
+        "badge_2_image": "shopify://shop_images/abc-logo.png",
+        "badge_3_image": "shopify://shop_images/safe-secure.png"
+      }
+    },
+    "benefits_QEiCen": {
+      "type": "benefits",
+      "settings": {
+        "benefit_1_image": "shopify://shop_images/free-shipping.png",
+        "benefit_1_title": "Free shipping",
+        "benefit_1_description": "on $25+ orders",
+        "benefit_2_image": "shopify://shop_images/satisfied.png",
+        "benefit_2_title": "Satisfied",
+        "benefit_2_description": "or Refunded",
+        "benefit_3_image": "shopify://shop_images/large-high-quality.png",
+        "benefit_3_title": "Large & High-Quality",
+        "benefit_3_description": "Inventory",
+        "benefit_4_image": "shopify://shop_images/top-notch.png",
+        "benefit_4_title": "Top-Notch",
+        "benefit_4_description": "Support"
+      }
+    },
+    "shop_by_category_Xh3LzW": {
+      "type": "shop_by_category",
       "blocks": {
-        "image-1": {
-          "type": "image",
+        "category_gHQ9tt": {
+          "type": "category",
           "settings": {
-            "image": "shopify://shop_images/hero-home-bk.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Introducing: the Headphones Collection",
-            "content": "Discover our selection of the best headphones of the year",
-            "content_position": "middle_center",
-            "button_background": "#00badb",
-            "button_text_color": "#ffffff",
-            "button_text": "Shop all headphones",
-            "link": "shopify://collections/all"
+            "category_image": "shopify://shop_images/simpsons.jpg",
+            "category_title": "Simpsons Strong-Tie Connectors",
+            "collection_url": "shopify://collections/connectors"
           }
         },
-        "image-2": {
-          "type": "image",
+        "category_q3zKnQ": {
+          "type": "category",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "New Portable Speakers",
-            "content": "Discover the brand new speakers.",
-            "content_position": "middle_right",
-            "button_background": "#00badb",
-            "button_text_color": "#ffffff",
-            "button_text": "Shop now",
-            "link": "shopify://collections/all"
+            "category_image": "shopify://shop_images/industrial-power.jpg",
+            "category_title": "Industrial Power Tool",
+            "collection_url": "shopify://collections/industrial-power-tools"
           }
         },
-        "image-3": {
-          "type": "image",
+        "category_3Kc36J": {
+          "type": "category",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Introducing brand new OLED TVs",
-            "content": "Discover all the masterpieces, selected by our team",
-            "content_position": "middle_left",
-            "button_background": "#00badb",
-            "button_text_color": "#ffffff",
-            "button_text": "Shop now",
-            "link": "shopify://collections/all"
+            "category_image": "shopify://shop_images/power-tools_230ebbbb-3bbc-4d3b-b3cd-a18fd0fbbc72.jpg",
+            "category_title": "Power Tools",
+            "collection_url": "shopify://collections/power-tools"
+          }
+        },
+        "category_8m7kQG": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/anchors.jpg",
+            "category_title": "Anchors & Fasteners",
+            "collection_url": "shopify://collections/anchors-and-fasteners"
+          }
+        },
+        "category_6jnBnn": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/power-tools-accesories.jpg",
+            "category_title": "Power Tool Accessories",
+            "collection_url": "shopify://collections/power-tools-accessories"
+          }
+        },
+        "category_KTGX8F": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/adhesive-anchors.jpg",
+            "category_title": "Adhesive Anchors & Concrete Repair",
+            "collection_url": "shopify://collections/adhesive-anchors"
+          }
+        },
+        "category_9RVBQM": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/rebar-tools.jpg",
+            "category_title": "Rebar Tools",
+            "collection_url": "shopify://collections/rebar-benders-cutters-tiers"
+          }
+        },
+        "category_HAr3KY": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/generators.jpg",
+            "category_title": "Generators",
+            "collection_url": "shopify://collections/generators"
+          }
+        },
+        "category_pwbFnq": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/ppe.jpg",
+            "category_title": "PPE & Safety Equipment",
+            "collection_url": "shopify://collections/ppe-safety-equipment"
+          }
+        },
+        "category_F7rBP9": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/structural-steel.jpg",
+            "category_title": "Structural Steel / Rebar",
+            "collection_url": "shopify://collections/structural-steel-rebar"
+          }
+        },
+        "category_4UPM6t": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/marketing-spray.jpg",
+            "category_title": "Marking Spray Paints",
+            "collection_url": "shopify://collections/paint-marking-striping"
+          }
+        },
+        "category_NCfTdB": {
+          "type": "category",
+          "settings": {
+            "category_image": "shopify://shop_images/two-way-radios.jpg",
+            "category_title": "Two Way Radios",
+            "collection_url": "shopify://collections/kenwood-2-way-radios"
           }
         }
       },
       "block_order": [
-        "image-1",
-        "image-2",
-        "image-3"
+        "category_gHQ9tt",
+        "category_q3zKnQ",
+        "category_3Kc36J",
+        "category_8m7kQG",
+        "category_6jnBnn",
+        "category_KTGX8F",
+        "category_9RVBQM",
+        "category_HAr3KY",
+        "category_pwbFnq",
+        "category_F7rBP9",
+        "category_4UPM6t",
+        "category_NCfTdB"
       ],
       "settings": {
-        "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "cycle_speed": 5
-      }
-    },
-    "promotion-list": {
-      "type": "promotion-list",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "stretch_image": false,
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#fc2a68",
-            "text_color": "#ffffff",
-            "title": "OLED TVs",
-            "content": "<p>Exclusive offers on TVs until Dec 31.<br/>$100 off on every purchase</p>",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#fc2a68",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "stretch_image": false,
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#6f42ef",
-            "text_color": "#ffffff",
-            "title": "Speakers",
-            "content": "<p>Explore our range of high-quality speakers.</p>",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#6f42ef",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "stretch_image": false,
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#26c1ce",
-            "text_color": "#ffffff",
-            "title": "Headphones",
-            "content": "<p>Discover our new headphones.<br/>Up to 25% Off !</p>",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#26c1ce",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "name": "Promotion blocks",
-      "settings": {
-        "expand_items": false,
-        "section_size": "medium",
-        "stack_mobile": false
-      }
-    },
-    "offers": {
-      "type": "offers",
-      "blocks": {
-        "offer-1": {
-          "type": "offer",
-          "settings": {
-            "title": "Exclusive offers",
-            "content": "<p>Enjoy great discounts on a wide range of portable speakers, including compact clip-on models, versatile flip-style speakers, and smart voice-controlled options!</p>"
-          }
-        },
-        "offer-2": {
-          "type": "offer",
-          "settings": {
-            "title": "Free shipping for all orders",
-            "content": "<p>We got you covered ! We deliver your goods using UPS expedited shipping, free of charge</p>"
-          }
-        }
-      },
-      "block_order": [
-        "offer-1",
-        "offer-2"
-      ],
-      "name": "Offers",
-      "settings": {
-        "items_per_row": 2,
-        "stack_mobile": false
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3",
-        "collection-4",
-        "collection-5",
-        "collection-6"
-      ],
-      "settings": {
-        "title": "Our collections",
-        "link_title": "View all",
-        "link": "shopify://collections",
-        "round_images": true,
-        "show_collection_title": true
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "title": "Featured collection",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all sales",
-        "link_url": ""
-      }
-    },
-    "mosaic": {
-      "type": "mosaic",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#ff2e1f",
-            "text_color": "#ffffff",
-            "title": "Bluetooth",
-            "content": "Feel the freedom with our Bluetooth headphones and speakers.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#383639",
-            "text_color": "#ffffff",
-            "title": "Professional audio",
-            "content": "Get the best deals for professional audio equipment.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#000000",
-            "title": "Headphones",
-            "content": "Our selection of premium headphones to enjoy your favorite playlist with an incredible sound.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "item-4": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#000000",
-            "title": "Accessories",
-            "content": "Our various accessories to have the best experience.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "item-5": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#383639",
-            "text_color": "#ffffff",
-            "title": "Projectors",
-            "content": "Play or watch your favorites TV shows with these projectors.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4",
-        "item-5"
-      ],
-      "name": "Mosaic",
-      "settings": {
-        "section_size": "medium"
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "name": "Rich text",
-      "settings": {
-        "text_width": "narrow",
-        "title": "About us",
-        "content": "<p>Our mission is to deliver an exceptional customer experience in the audio and video industry, without compromise. We are committed to offering only top-performing products, mastering their features inside and out to ensure that your experience with both our team and the products we provide is unmatched. As one of the fastest-growing retailers in this space, we take pride in setting a high standard for quality and service.</p>",
-        "button_text": "Our products",
+        "title": "Shop by Category",
+        "show_button": true,
+        "button_text": "Shop All Categories",
         "button_link": "shopify://collections/all"
       }
     },
-    "logo-list": {
-      "type": "logo-list",
+    "popular_brands_kQyJnQ": {
+      "type": "popular-brands",
       "blocks": {
-        "logo-1": {
-          "type": "logo",
+        "brand_ANhTLt": {
+          "type": "brand",
           "settings": {
-            "link": ""
+            "brand_image": "shopify://shop_images/simpsons-strong-tie.png",
+            "collection_url": "shopify://collections/simpson-strong-tie"
           }
         },
-        "logo-2": {
-          "type": "logo",
+        "brand_rzBHHE": {
+          "type": "brand",
           "settings": {
-            "link": ""
+            "brand_image": "shopify://shop_images/dewalt_165519e5-2409-423a-8f71-dda6d23186d9.png",
+            "collection_url": "shopify://collections/dewalt"
           }
         },
-        "logo-3": {
-          "type": "logo",
+        "brand_8tENxw": {
+          "type": "brand",
           "settings": {
-            "link": ""
+            "brand_image": "shopify://shop_images/jet.png",
+            "collection_url": "shopify://collections/jet"
           }
         },
-        "logo-4": {
-          "type": "logo",
+        "brand_K4bpBj": {
+          "type": "brand",
           "settings": {
-            "link": ""
+            "brand_image": "shopify://shop_images/baileigh_34069806-3db6-495d-bf84-eae1afe1a99c.png",
+            "collection_url": "shopify://collections/baileigh-industrial"
           }
         },
-        "logo-5": {
-          "type": "logo",
+        "brand_8mkUft": {
+          "type": "brand",
           "settings": {
-            "link": ""
+            "brand_image": "shopify://shop_images/cmt.png",
+            "collection_url": "shopify://collections/cmt"
           }
         },
-        "logo-6": {
-          "type": "logo",
+        "brand_LzENUi": {
+          "type": "brand",
           "settings": {
-            "link": ""
+            "brand_image": "shopify://shop_images/diablo.png",
+            "collection_url": "shopify://collections/diablo"
+          }
+        },
+        "brand_73R4Vx": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify://shop_images/edwards.png",
+            "collection_url": "shopify://collections/edwards"
+          }
+        },
+        "brand_dAYAXP": {
+          "type": "brand",
+          "settings": {
+            "brand_image": "shopify://shop_images/Metabo-Tools-Logo.webp",
+            "collection_url": "shopify://collections/metabo"
           }
         }
       },
       "block_order": [
-        "logo-1",
-        "logo-2",
-        "logo-3",
-        "logo-4",
-        "logo-5",
-        "logo-6"
+        "brand_ANhTLt",
+        "brand_rzBHHE",
+        "brand_8tENxw",
+        "brand_K4bpBj",
+        "brand_8mkUft",
+        "brand_LzENUi",
+        "brand_73R4Vx",
+        "brand_dAYAXP"
       ],
-      "name": "Logo list",
       "settings": {
-        "title": "Brands we distribute",
-        "link_title": "",
-        "link": ""
+        "title": "Popular Brands",
+        "button_text": "Shop All Brands",
+        "button_link": "shopify://pages/all-brands"
       }
     },
-    "collection-with-image": {
-      "type": "collection-with-image",
-      "name": "Collection with image",
-      "settings": {
-        "collection": "",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#2d2d2d",
-        "text_color": "#ffffff",
-        "title": "New TVs",
-        "content": "Here is our selection of new TVs on the market, picked by our experts.",
-        "button_background": "#ffffff",
-        "button_text_color": "#2d2d2d",
-        "button_text": "Learn more",
-        "button_link": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
+    "testimonials_p3Qtzc": {
+      "type": "testimonials",
       "blocks": {
-        "product-meta-1": {
-          "type": "product_meta",
+        "testimonial_bqLrJU": {
+          "type": "testimonial",
           "settings": {
-            "show_vendor": true,
-            "show_sku": false,
-            "show_reviews_badge": false,
-            "show_share_buttons": true
+            "name": "Gary S.",
+            "content": "I found a particular item on your website that was unavailable in other places I searched. Ordering process was easy to use."
           }
         },
-        "featured-description-1": {
-          "type": "featured_description",
-          "settings": {}
-        },
-        "variant-selector-1": {
-          "type": "variant_selector",
+        "testimonial_gQypHi": {
+          "type": "testimonial",
           "settings": {
-            "selector_mode": "block",
-            "color_mode": "swatch",
-            "variant_image_options": "",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0,
-            "progress_bar_max_value": 50
+            "name": "Harold F.",
+            "content": "I had a small issue but contacting customer service it was resolved like it was a major problem, so far great customer service!"
           }
         },
-        "buy-buttons-1": {
-          "type": "buy_buttons",
+        "testimonial_n4TLkX": {
+          "type": "testimonial",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true
+            "name": "Timothy M.",
+            "content": "They have the most affordable prices and it's always a pleasure to find something new on their website. And they ship thing's crazy fast."
           }
         }
       },
       "block_order": [
-        "product-meta-1",
-        "featured-description-1",
-        "variant-selector-1",
-        "buy-buttons-1"
+        "testimonial_bqLrJU",
+        "testimonial_gQypHi",
+        "testimonial_n4TLkX"
       ],
       "settings": {
-        "product": "",
-        "title": "Featured product",
-        "link_title": "View details",
-        "link_url": "",
-        "image_size": "small",
-        "enable_image_zoom": true,
-        "enable_video_looping": false,
-        "zoom_effect": "outside",
-        "carousel_effect": "fade"
+        "title": "Why Our Clients Trust Us"
       }
     },
-    "featured-collection-1": {
+    "about_AhcK4z": {
+      "type": "about",
+      "settings": {
+        "title": "About Factory Direct Supply",
+        "subtitle": "We Supply Solutions",
+        "description": "<p>Factory Direct Supply offers a <strong>vast diversity of products</strong> and extensive experience in structural steel fabrication which makes us the go-to source for construction supplies and expert structural steel fabrication projects.</p>",
+        "image": "shopify://shop_images/factory-direct.webp",
+        "image_alt": "Factory Direct Supply",
+        "button_text": "Learn More About Us",
+        "button_link": "shopify://pages/welcome-to-factory-direct-supply"
+      }
+    },
+    "featured_collection_pftyf9": {
       "type": "featured-collection",
-      "name": "Featured collection",
+      "custom_css": [
+        ".product-item__action-button {background: #fff; border: 2px solid #d90000; border-radius: 2px; font-weight: 700; font-size: 16px; color: #d90000;}",
+        ".product-item__action-button:hover {background-color: #d90000; color: #fff;}"
+      ],
       "settings": {
-        "collection": "",
-        "title": "Top-rated products",
-        "products_count": 12,
-        "layout": "collage",
+        "collection": "best-sellers",
+        "title": "Best Sellers",
+        "products_count": 50,
+        "layout": "vertical",
         "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
+        "show_quick_buy": true,
+        "link_title": "",
         "link_url": ""
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
+    "newsletter_home_PqGKGd": {
+      "type": "newsletter-home",
       "settings": {
-        "blog": "",
-        "blog_posts_count": 3,
-        "title": "Blog posts",
-        "link_title": "View all",
-        "show_category": true,
-        "show_author": true,
-        "show_date": true,
-        "show_excerpt": false,
-        "stack_mobile": false
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Let's keep in touch",
-        "content": "<p>Subscribe to our weekly newsletter and receive exclusive offers on products you love!</p>",
-        "background": "rgba(0,0,0,0)",
-        "text": "#677279"
-      }
-    },
-    "quick-links": {
-      "type": "quick-links",
-      "blocks": {
-        "link-1": {
-          "type": "link",
-          "settings": {
-            "title": "Headphones",
-            "link": ""
-          }
-        },
-        "link-2": {
-          "type": "link",
-          "settings": {
-            "title": "Speakers",
-            "link": ""
-          }
-        },
-        "link-3": {
-          "type": "link",
-          "settings": {
-            "title": "TVs",
-            "link": ""
-          }
-        },
-        "link-4": {
-          "type": "link",
-          "settings": {
-            "title": "Turntables",
-            "link": ""
-          }
-        },
-        "link-5": {
-          "type": "link",
-          "settings": {
-            "title": "Subwoofers",
-            "link": ""
-          }
-        },
-        "link-6": {
-          "type": "link",
-          "settings": {
-            "title": "Projectors",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "link-1",
-        "link-2",
-        "link-3",
-        "link-4",
-        "link-5",
-        "link-6"
-      ],
-      "name": "Quick links",
-      "settings": {
-        "title": "Quick links",
-        "expand_items": true,
-        "show_desktop": true,
-        "link_title": "",
-        "link": ""
+        "background_image": "shopify://shop_images/back-newsletter.jpg",
+        "title": "Never Miss an Update",
+        "description": "Keep your toolbox stocked - sharpen your skills with our updates and deals."
       }
     }
   },
   "order": [
-    "slideshow",
-    "promotion-list",
-    "offers",
-    "collection-list",
-    "featured-collection",
-    "mosaic",
-    "rich-text",
-    "logo-list",
-    "collection-with-image",
-    "featured-product",
-    "featured-collection-1",
-    "blog-posts",
-    "newsletter",
-    "quick-links"
+    "hero_home_Naf8CG",
+    "benefits_QEiCen",
+    "shop_by_category_Xh3LzW",
+    "popular_brands_kQyJnQ",
+    "testimonials_p3Qtzc",
+    "about_AhcK4z",
+    "featured_collection_pftyf9",
+    "newsletter_home_PqGKGd"
   ]
 }
